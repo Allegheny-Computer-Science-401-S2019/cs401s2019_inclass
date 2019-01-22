@@ -1,10 +1,10 @@
-# CMPSC-310-Class-Material
+# CMPSC-401-Class-Material
 
 ## Introduction
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the in-class materials that you will need
-in Computer Science 310. All of
+in Computer Science 401. All of
 the work that you do in class  will count towards your
 class participation grade.
 
@@ -14,7 +14,7 @@ When the course instructor provides the new material for the in-class activity,
  you can type this command in the main directory for this repository:
 
 ```
-git remote add download git@github.com:Allegheny-College-Science-310-F2018/CMPSC-310-Class-Material
+git remote add download git@github.com:Allegheny-Computer-Science-401-S2019/cs401s2019_inclass
 ```
 
 You should only need to type this command once; typing the command additional
@@ -36,8 +36,8 @@ manually resolve them with the help of the instructor or a teaching assistant.
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 310 Class Material repository]
-(https://github.com/Allegheny-College-Science-310-F2018/class_material)
+you can go to the [Computer Science 401 Class Material repository]
+(https://github.com/Allegheny-Computer-Science-401-S2019/cs401s2019_inclass)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button.
 
