@@ -1,7 +1,6 @@
 /*
-*  Search through source flagging any
-*  occurrances of pattern (a|b)*abb
-*  found.
+*  Search through source finding any
+*  occurrances of pattern (a|b)*abb.
 *
 *  By default, unmatched fragments 
 *  of input are echoed verbatim to output.
@@ -14,11 +13,12 @@
 *
 *  %class option creates Search.java insead of Yylex.java.
 *
-*  For each match found, prints text mattched and its 
+*  For each match found, prints text matched and its 
 *  position within the input file.
 *
 *  yytext(): the text fragments that matches the pattern
 *  yyline: the line number (need %line option to enable this)
+*  yycolumn: the column number (need %column option to enable this)
 *
 *  To run: 
 *
@@ -37,7 +37,7 @@
 %column
 %%
 (a|b)*abb   {System.out.printf(
-			"*** found match [%s] at l%d, c%d\n ",
+			"*** found match [%s] on line %d, column %d\n ",
 			yytext(), yyline, yycolumn);
 			}
 \n          { /* do nothing */}
