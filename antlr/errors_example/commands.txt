@@ -1,0 +1,10 @@
+export CLASSPATH=".:/usr/share/java/antlr4-runtime.jar:$CLASSPATH"
+
+alias grun='java -Xmx500M -cp ".:/usr/share/java/antlr4.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
+
+antlr4 Simple.g4
+
+javac Simple*.java
+
+grun Simple prog
+
